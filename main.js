@@ -13,7 +13,7 @@ boxDrop.addEventListener('dragover', (e)=>{
 })
 
 boxDrop.addEventListener('drop', (e)=>{
-    if(cont >= 2) {
+    if(cont >= 10) {
         lightbox.classList.add('lightbox-on')
     }else{
         e.preventDefault();

@@ -65,3 +65,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+.content {
+    text-align: center;
+}
+.content .sim, .nao {
+    border: none;
+    background-color: rgb(48, 48, 223);
+    color:white;
+    width: 5vw;
+    height: 4vh;
+    margin-top: 20px;
+
+}
+
+.content p {
+    margin: 10px;
+}
